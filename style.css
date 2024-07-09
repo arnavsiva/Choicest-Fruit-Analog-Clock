@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
+    user-select: none;
 }
 
 :root{
@@ -104,7 +105,7 @@ body.dark{
     background: var(--black-color);
 }
 
-.mode-switch{
+.mode-switch {
     padding: 10px 20px;
     border-radius: 8px;
     font-size: 22px;
@@ -113,4 +114,9 @@ body.dark{
     color: var(--white-color);
     background: var(--black-color);
     box-shadow: 0 5px 10px rgba(0, 0, 0.1);
+    user-select: none;
+}
+
+.mode-switch:hover{
+    cursor: pointer;
 }
